@@ -65,7 +65,7 @@ tr:nth-child(even) {
     </td> 
     <td> 
 	{% if person.AKNTG %} 
-	  JA 
+	  JA ({{ person.AKNTG }})
       	{% else %} 
 	  NEIN
       	{% endif %} 
