@@ -28,6 +28,8 @@ tr:nth-child(even) {
 
 
 <h1> Voraussetzungen </h1> 
+<A HREF="https://www.vdst.de/wp-content/uploads/VDST-DTSA-Ordnung-2021.pdf#page=28">Voraussetzungen für Gold</a>
+
 <h2> Gold </h2> 
 <table id="tg-FK3W8" class="tg">
   <tr>
@@ -74,6 +76,7 @@ tr:nth-child(even) {
 </table>
 
 <h1> Silber </h1> 
+<A HREF="https://www.vdst.de/wp-content/uploads/VDST-DTSA-Ordnung-2021.pdf#page=25">Voraussetzungen für Silber</a>
 <table id="tg-FK3W8" class="tg">
   <tr>
     <th>Name</th>
