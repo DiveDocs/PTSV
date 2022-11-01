@@ -1,0 +1,43 @@
+- name: "Holger G."
+  brevet: "Gold" 
+  ttg: false
+  TG:  NN
+  TGTief: NN
+  AKNTG: false
+  AKTSR: false
+
+- name: "Michael S."
+  brevet: "Gold" 
+  ttg: false
+  TG:  NN
+  TGTief: NN
+  AKNTG: false
+  AKTSR: false
+
+- name: "Manfred H."
+  brevet: "Gold" 
+  ttg: false
+  TG:  NN
+  TGTief: NN
+  AKNTG: false
+  AKTSR: false
+
+- name: "Otto F."
+  brevet: "Gold" 
+  ttg: false
+  TG:  NN
+  TGTief: NN
+  AKNTG: false
+  AKTSR: false
+
+- name: "Marcus S."
+  brevet: "Silber" 
+  ttg: false
+  TG:  NN
+  TGTief: NN
+  gueltig: "01/04/2023"
+  AKOT: false
+  AKGF: false
+  AKMB: false
+  AKHLW: false
+
