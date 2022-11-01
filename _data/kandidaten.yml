@@ -8,10 +8,11 @@
 
 - name: "Michael S."
   brevet: "Gold" 
-  ttg: false
+  ttg: true
+  gueltig: 20/04/2023
   TG:  NN
   TGTief: NN
-  AKNTG: false
+  AKNTG: true
   AKTSR: false
 
 - name: "Manfred H."
