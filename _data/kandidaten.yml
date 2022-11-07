@@ -31,6 +31,14 @@
   AKNTG: false
   AKTSR: false
 
+- name: "Fabi S."
+  brevet: "Gold" 
+  ttg: false
+  TG:  NN
+  TGTief: NN
+  AKNTG: false
+  AKTSR: false
+
 - name: "Marcus S."
   brevet: "Silber" 
   ttg: false
