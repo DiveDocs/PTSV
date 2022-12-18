@@ -15,7 +15,7 @@
   AKNTG: NTG
   AKTSR: false
 
-- name: "Manfred H."
+- name: "Manfred K."
   brevet: "Gold" 
   ttg: false
   TG:  NN
@@ -49,4 +49,31 @@
   AKGF: false
   AKMB: false
   AKHLW: false
+
+- name: "Maria H."
+  brevet: "Bronze" 
+  ttg: false
+  TG:  NN
+  TGTief: NN
+  gueltig: "01/04/2023"
+  AKHLW: false
+
+- name: "Julian"
+  brevet: "Bronze" 
+  ttg: true
+  TG:  NN
+  TGTief: NN
+  gueltig: "25/07/2024"
+  AKHLW: false
+
+- name: "Leonie S."
+  brevet: "KTA Gold" 
+  ttg: false
+  gueltig: "01/04/2023"
+  AKGF: false
+
+- name: "Isabel S."
+  brevet: "Otter" 
+  ttg: false
+  gueltig: "01/04/2023"
 

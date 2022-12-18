@@ -137,3 +137,98 @@ tr:nth-child(even) {
 {% endfor %}
 </table>
 
+<h1> Bronze </h1> 
+<A HREF="https://www.vdst.de/wp-content/uploads/VDST-DTSA-Ordnung-2021.pdf#page=22">Voraussetzungen für Bronze</a>
+<table id="tg-FK3W8" class="tg">
+  <tr>
+    <th>Name</th>
+    <th>Nächstes Brevet</th>
+    <th>Tauchtauglichkeit</th>
+    <th>AK HLW</th>
+  </tr>
+
+{% for person in site.data.kandidaten%}
+  {% if person.brevet=="Bronze" %}
+    <tr> 
+    <td> {{person.name}}</td>, 
+    <td> {{person.brevet}}</td> 
+    <td>
+      {% if person.ttg %} 
+	  JA (gültig bis: {{person.gueltig}} )
+      {% else %} 
+	  NEIN
+      {% endif %} 
+    </td>
+    <td> 
+	{% if person.AKHLW %} 
+	  JA 
+      	{% else %} 
+	  NEIN
+      	{% endif %} 
+    </td> 
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+
+<h1> KTA Gold </h1> 
+<A HREF="https://www.vdst.de/wp-content/uploads/VDST-KTSA-Ordnung-2021.pdf#page=18">Voraussetzungen für KTA Gold</a>
+<table id="tg-FK3W8" class="tg">
+  <tr>
+    <th>Name</th>
+    <th>Nächstes Brevet</th>
+    <th>Tauchtauglichkeit</th>
+    <th>KSK GF </th>
+  </tr>
+
+{% for person in site.data.kandidaten%}
+  {% if person.brevet=="KTA Gold" %}
+    <tr> 
+    <td> {{person.name}}</td>, 
+    <td> {{person.brevet}}</td> 
+    <td>
+      {% if person.ttg %} 
+	  JA (gültig bis: {{person.gueltig}} )
+      {% else %} 
+	  NEIN
+      {% endif %} 
+    </td>
+    <td> 
+	{% if person.GF %} 
+	  JA 
+      	{% else %} 
+	  NEIN
+      	{% endif %} 
+    </td> 
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
+
+<h1> Schnorchelabzeiichen Otter </h1>
+
+
+<A HREF="https://www.vdst.de/wp-content/uploads/VDST-KTSA-Ordnung-2021.pdf#page=8">Voraussetzungen für SA Otter</a>
+<table id="tg-FK3W8" class="tg">
+  <tr>
+    <th>Name</th>
+    <th>Nächstes Brevet</th>
+    <th>Ärztl Bescheinigung</th>
+  </tr>
+
+{% for person in site.data.kandidaten%}
+  {% if person.brevet=="Otter" %}
+    <tr> 
+    <td> {{person.name}}</td>, 
+    <td> {{person.brevet}}</td> 
+    <td>
+      {% if person.ttg %} 
+	  JA 
+      {% else %} 
+	  NEIN
+      {% endif %} 
+    </td>
+  </tr>
+  {% endif %}
+{% endfor %}
+</table>
